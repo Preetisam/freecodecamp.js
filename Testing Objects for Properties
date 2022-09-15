@@ -1,0 +1,19 @@
+/*const myObj = {
+  top: "hat",
+  bottom: "pants"
+};
+
+myObj.hasOwnProperty("top");
+myObj.hasOwnProperty("middle");*/
+
+
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+   if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found";
+  }
+
+  // Only change code above this line
+}
