@@ -1,0 +1,6 @@
+const Arry[];
+let i=5;
+while(i>=0){
+array.push(i)
+i--;
+console.log(i)
