@@ -1,0 +1,32 @@
+const ourArray = [];
+let i = 0;
+
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+
+
+const ourArray = []; 
+let i = 5;
+
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
+const ourArray = []; 
+let i = 5;
+
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+
+var myArray = [];
+var i = 10;
+
+do {
+  myArray.push(i);
+  i++;
+} while (i <= 10);
