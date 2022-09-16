@@ -1,0 +1,16 @@
+const ourArray = [];
+
+for (let i = 10; i > 0; i -= 2) {
+  ourArray.push(i);
+}//even number in reverse
+
+for(let i =9;i>0;i-=2){
+    console.log(i);
+}//odd number in reverse
+
+const myArray = [];
+
+// Only change code below this line
+for(let i =9;i>0;i-=2){
+  myArray.push(i);
+}
