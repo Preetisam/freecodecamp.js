@@ -1,0 +1,22 @@
+const arr = [10, 9, 8, 7, 6];
+
+for (let i = 0; i < arr.length; i++) {
+   console.log(arr[i]);
+}
+
+
+// Setup
+const myArr = [2, 3, 4, 5, 6];
+
+// Only change code below this line
+let total=0;
+for (let i = myArr.length - 1; i >= 0; i--) {
+  total += myArr[i]
+  console.log(myArr[total]);
+}
+
+}
+let total = 0;
+for (let i = myArr.length - 1; i >= 0; i--) {
+  total += myArr[i];
+}
